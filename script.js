@@ -9,6 +9,11 @@ place_1.innerHTML = 'Player 1 goes here';
 place_2.innerHTML = 'Player 2 goes here';
 result.innerHTML='Get Ready';
 
+function myfunc_2() {
+    location.reload();
+    place_1 = place_2 = '';
+}
+
 btn.onclick = () => {
 
     const player_1 = Math.floor(Math.random() * 6);
